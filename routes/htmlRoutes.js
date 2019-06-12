@@ -1,10 +1,9 @@
-const path = require("path");
+let projects = require("../models/projects.js");
 
 module.exports = function (app) {
 
   app.get("/portfolio", function (req, res) {
-    console.log("Get me my portfolio");
-    res.render("portfolio");
+    res.render("portfolio", {projects});
   });
 
   // If no matching route is found default to home
@@ -13,7 +12,6 @@ module.exports = function (app) {
   });
 
   app.get("*", function (req, res) {
-    console.log("Root route hit");
     res.render("index");
   });
 };

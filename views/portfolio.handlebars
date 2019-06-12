@@ -6,95 +6,16 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <div class="card mb-3">
-                <img class="card-img-top" src="assets/images/bears_logo2.png" alt="Go Bears">
-                <div class="_card-body">
-                    <a href="https://pblack67.github.io/WordGuessGame/" class="btn btn-primary" style="width: 100%"
-                        target="_blank">Word Guessing Game</a>
+        {{#each projects}}
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card mb-3">
+                    <img class="card-img-top" src="{{image}}" alt="{{alt}}">
+                    <div class="_card-body">
+                        <a href="{{href}}" class="btn btn-primary" style="width: 100%"
+                            target="_blank">{{title}}</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <div class="card mb-3">
-                <img class="card-img-top" src="assets/images/luke-skywalker2.jpeg" alt="Star Wars RPG">
-                <div class="_card-body">
-                    <a href="https://pblack67.github.io/StarWarsGame/" class="btn btn-primary" style="width: 100%"
-                        target="_blank">Star Wars RPG</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <div class="card mb-3">
-                <img class="card-img-top" src="assets/images/ring2.jpg" alt="Wagner's Ring">
-                <div class="_card-body">
-                    <a href="https://pblack67.github.io/OperaTriviaGame/" class="btn btn-primary" style="width: 100%"
-                        target="_blank">Opera Trivia Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <div class="card mb-3">
-                <img class="card-img-top" src="assets/images/julie-andrews.jpg" alt="My Favorite Things">
-                <div class="_card-body">
-                    <a href="https://pblack67.github.io/MyFavoriteThings/" class="btn btn-primary" style="width: 100%"
-                        target="_blank">My Favorite Things</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <div class="card mb-3">
-                <img class="card-img-top" src="assets/images/rock-paper-scissors.jpg" alt="My Favorite Things">
-                <div class="_card-body">
-                    <a href="https://pblack67.github.io/HW7-RPS-Multiplayer/" class="btn btn-primary"
-                        style="width: 100%" target="_blank">Online Rock, Paper, Scissors</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <div class="card mb-3">
-                <img class="card-img-top" src="assets/images/tablet.jpg" alt="My Favorite Things">
-                <div class="_card-body">
-                    <a href="https://team1-rikafaraahpaul.github.io/Aggregator/index.html" class="btn btn-primary"
-                        style="width: 100%" target="_blank">The Binger</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <div class="card mb-3">
-                <img class="card-img-top" src="assets/images/cltool.jpg" alt="Liri">
-                <div class="_card-body">
-                    <a href="https://github.com/pblack67/HW8-Liri-Node-App" class="btn btn-primary" style="width: 100%"
-                        target="_blank">Liri</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <div class="card mb-3">
-                <img class="card-img-top" src="assets/images/cltool.jpg" alt="CLIWordGuessGame">
-                <div class="_card-body">
-                    <a href="https://github.com/pblack67/HW9-CLIWordGuessGame" class="btn btn-primary"
-                        style="width: 100%" target="_blank">CLI Word Guess Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <div class="card mb-3">
-                <img class="card-img-top" src="assets/images/cltool.jpg" alt="Bamazon">
-                <div class="_card-body">
-                    <a href="https://github.com/pblack67/HW10-Bamazon" class="btn btn-primary" style="width: 100%"
-                        target="_blank">Bamazon Storefront</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <div class="card mb-3">
-                <img class="card-img-top" src="assets/images/friends.jpg" alt="FriendFinder">
-                <div class="_card-body">
-                    <a href="https://friendfinder-peb.herokuapp.com/" class="btn btn-primary" style="width: 100%"
-                        target="_blank">Friend Finder</a>
-                </div>
-            </div>
-        </div>
+        {{/each}}
     </div>
 </main>
