@@ -15,5 +15,5 @@ app.set("view engine", "handlebars");
 require("./routes/htmlRoutes")(app);
 
 app.listen(PORT, function () {
-    console.log("App listening on http://localhost:" + PORT);
+    console.log("Express app listening on http://localhost:" + PORT);
 });

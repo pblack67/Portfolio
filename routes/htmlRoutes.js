@@ -3,15 +3,17 @@ const path = require("path");
 module.exports = function (app) {
 
   app.get("/portfolio", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/portfolio.html"));
+    console.log("Get me my portfolio");
+    res.render("portfolio");
   });
 
   // If no matching route is found default to home
   app.get("/contact", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/contact.html"));
+    res.render("contact");
   });
 
   app.get("*", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/index.html"));
+    console.log("Root route hit");
+    res.render("index");
   });
 };
