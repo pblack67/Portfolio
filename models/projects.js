@@ -58,6 +58,12 @@ let projects = [
       href: "https://friendfinder-peb.herokuapp.com/",
       image: "assets/images/friends.jpg",
       alt: "FriendFinder"
+    },
+    {
+      title: "Eat Da Burger",
+      href: "https://eatdaburger-peb.herokuapp.com/",
+      image: "assets/images/burger.jpg",
+      alt: "Eat Da Burger"
     }
   ];
 
