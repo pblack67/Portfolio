@@ -64,6 +64,12 @@ let projects = [
       href: "https://eatdaburger-peb.herokuapp.com/",
       image: "assets/images/burger.jpg",
       alt: "Eat Da Burger"
+    },
+    {
+      title: "Refassign",
+      href: "https://refassign.herokuapp.com/",
+      image: "assets/images/referee.jpg",
+      alt: "Refassign"
     }
   ];
 
