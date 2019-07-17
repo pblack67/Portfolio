@@ -70,7 +70,12 @@ let projects = [
       href: "https://refassign.herokuapp.com/",
       image: "assets/images/referee.jpg",
       alt: "Refassign"
-    }
-  ];
+    },
+    {
+      title: "Scraper Deluxe",
+      href: "https://scraper-peb.herokuapp.com/",
+      image: "assets/images/scraper.jpg",
+      alt: "Scraper Deluxe"
+    }  ];
 
   module.exports = projects;
