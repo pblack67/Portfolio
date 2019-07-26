@@ -6,6 +6,10 @@ module.exports = function (app) {
     res.render("portfolio", {projects});
   });
 
+  app.get("/technology", function (req, res) {
+    res.render("technology", {projects});
+  });
+
   // If no matching route is found default to home
   app.get("/contact", function (req, res) {
     res.render("contact");
