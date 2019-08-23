@@ -1,6 +1,14 @@
 let projects = [
 
   {
+    title: "Vice Cracker",
+    href: "https://vice-cracker.herokuapp.com/",
+    image: "assets/images/vice.jpg",
+    alt: "Vice Cracker",
+    repo: "https://github.com/mildlysharpcoders/vice-cracker",
+    tech: "React, Twilio, bcrypt, cron, moment, passport",
+    description: "Vice Cracker is a health application dedicated to help you track your vices. The user can set up various vices and track their consumption. They can also set up target amounts to not exceed for the week. If they exceed them they will get daily texts about a healthier option they chose during configuration. The application also rewards them with encouraginng messages for being under their consumption limit. Streaks of consecutive weeks of below-limit consumption are rewarded with a text, too."
+  },  {
     title: "Memory Game",
     href: "https://pblack67.github.io/HW15-MemoryGame/",
     image: "assets/images/shatner.jpg",
